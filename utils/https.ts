@@ -26,7 +26,6 @@ export function httpsRequest(hostname: string, path: string, headers: {}, method
 
   return new Promise((resolve, reject) => {
     const req = https.request(opts, (res: any) => {
-      // res.setEncoding('utf8')
       res.on('data', (responseBody: {}) => {
         resolve(responseBody)
       })
