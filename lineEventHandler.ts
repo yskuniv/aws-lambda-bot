@@ -1,10 +1,10 @@
+import { MessageHandler } from './types'
 import {
   LineEvent,
   EventSourceUser,
   MessageEvent,
-  MessageEventTextMessage,
-  MessageHandler
-} from './types'
+  MessageEventTextMessage
+} from './types/lineWebhookEventObjects'
 import { Line } from './utils/line'
 
 class LineEventHandlerError extends Error { }
