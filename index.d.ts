@@ -1,4 +1,4 @@
 export {
   ReplyAction,
   MessageHandler
-} from './types'
+} from './lib/types'
