@@ -1,7 +1,5 @@
-import {
-  LineWebhookEventObject,
-  MessageHandler
-} from './types'
+import { MessageHandler } from './types'
+import { LineWebhookEventObject } from './types/lineWebhookEventObjects'
 import { Line } from './utils/line'
 import { LineEventHandler } from './lineEventHandler'
 
