@@ -1,7 +1,7 @@
-import { MessageHandler } from './types'
-import { LineWebhookEventObject } from './types/lineWebhookEventObjects'
-import { Line } from './utils/line'
-import { LineEventHandler } from './lineEventHandler'
+import { MessageHandler } from './lib/types'
+import { LineWebhookEventObject } from './lib/types/lineWebhookEventObjects'
+import { Line } from './lib/utils/line'
+import { LineEventHandler } from './lib/lineEventHandler'
 
 type AwsLambdaHandler = (event: {}, context: {}, callback: (...args: any[]) => void) => void
 
